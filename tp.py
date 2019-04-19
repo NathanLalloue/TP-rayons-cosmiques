@@ -4,7 +4,7 @@
 
 Ceci est un script temporaire.
 """
-
+#bite
 for col in [col1, col2, col3, col4]:
             indice_mini=0
             for j in range(1,len(col)):
