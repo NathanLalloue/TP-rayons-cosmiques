@@ -14,7 +14,7 @@ column_2=[]
 column_3=[]
 column_4=[]
 
-for i in range(8002): 
+for i in range(4000, 8002): 
     #print(i)
     time.append(float(data[i%4001][0]))
     column_1.append(float(data[i][1]))
