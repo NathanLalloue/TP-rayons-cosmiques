@@ -52,7 +52,7 @@ for rr in range(0, len(liste_fichiers)):
                      v_m += (col[k]-moyenne)
                  tt.append(t_m/v_m) 
          beta1 = (66.5*10**(-2))/(1.*c*(tt[1]-tt[0]))
-         beta2 = (70.5*10**(-2)-distance_plomb_raquette)/(1.*c*(tt[2]-tt[1]-distance_plomb_raquette*beta1*c))
+         beta2 = (70.5*10**(-2)-distance_plomb_raquette)/(1.*c*(tt[2]-tt[1]-distance_plomb_raquette/beta1/c))
          if beta2<beta1 :
              gamma1 = 1./sqrt((1.-beta1**2.))
              gamma2 = 1./sqrt((1.-beta2**2.))
